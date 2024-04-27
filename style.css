@@ -1,0 +1,371 @@
+/*CSS GERAL*/
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+    
+/*HEADER CSS*/
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+.logoimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.logoimg>img  {
+    display: flex;
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.linknav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.linknav:hover {
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARDS*/
+.area {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: orangered;
+    background-color: rgb(0, 0, 0);
+}
+
+.mycardpai{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 10px;    
+
+    
+}
+.mycard {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 330px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-color: orangered;
+}
+.mycard>img {
+    margin-top: 0px;
+    max-width: 180px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+.mycard>h3 {
+    font-size: 15px;
+    color: rgb(255, 253, 253);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.mycard>p {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mycard>button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;    
+    border-color: orangered;
+    
+}
+.mycard>button>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*CARDS BEBIDAS*/
+.mycard2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.mycard2>img {
+    margin-top: 0px;
+    max-width: 180px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+.mycard2>h3 {
+    font-size: 15px;
+    color: rgb(255, 253, 253);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.mycard2>p {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mycard2>button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;    
+    border-color: orangered;
+    
+}
+.mycard2>button>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mycard2>ul>li {
+    font-size: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.adci {
+    background-color: black;
+    margin: 0;
+}
+
+.adci>h1 {
+    text-align: center;
+    color: white;
+}
+
+.tabelas {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tabelas>ul>li {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+.nn {
+    color: orangered;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+.sobre {
+    text-align: center;
+}
+
+.sobre>p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.sobre>h1{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contato {
+    background-color: black;
+    text-align: center  ;
+}
+.contato>h1 {
+    color: rgb(255, 255, 255);
+    display: grid;
+}
+
+
+.butoes {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.instagram {
+    border-radius: 10px;
+    border-color: rgb(221, 42, 123);
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 200px;
+}
+
+.instagram>a {
+    text-decoration: none;
+    color:rgb(221, 42, 123);
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.whatsapp {
+    border-radius: 10px;
+    border-color: rgb(37,211,102);
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.whatsapp>a {
+    text-decoration: none;
+    color: rgb(37,211,102); 
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+
+}
+
+.telend {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.telend>h2 {
+    color: white;
+}
+.telend>p {
+    color: white;
+}
+
+
+/*FOOTER CSS*/
+.foot{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+.foot>p{
+    color: white;
+}
+.foot>p>a {
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+
+
+
+
