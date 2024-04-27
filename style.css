@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
 html {
     scroll-behavior: smooth;
-    
+
 }
-    
+
 /*HEADER CSS*/
 header {
     background-color: rgb(0, 0, 0);
@@ -18,6 +19,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -26,7 +28,8 @@ h1 {
     font-size: 30px;
     color: white;
 }
-.logoimg>img  {
+
+.logoimg>img {
     display: flex;
     width: 100px;
     aspect-ratio: 1/1;
@@ -101,14 +104,15 @@ h1 {
     background-color: rgb(0, 0, 0);
 }
 
-.mycardpai{
+.mycardpai {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    gap: 10px;    
+    gap: 10px;
 
-    
+
 }
+
 .mycard {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -121,12 +125,14 @@ h1 {
     border-radius: 20px;
     border-color: orangered;
 }
+
 .mycard>img {
     margin-top: 0px;
     max-width: 180px;
     max-height: 300px;
     border-radius: 20px;
 }
+
 .mycard>h3 {
     font-size: 15px;
     color: rgb(255, 253, 253);
@@ -135,6 +141,7 @@ h1 {
     font-style: normal;
 
 }
+
 .mycard>p {
     margin-left: 3px;
     margin-right: 3px;
@@ -144,14 +151,16 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
 .mycard>button {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: black;    
+    background-color: black;
     border-color: orangered;
-    
+
 }
+
 .mycard>button>a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -176,12 +185,14 @@ h1 {
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
 }
+
 .mycard2>img {
     margin-top: 0px;
     max-width: 180px;
     max-height: 300px;
     border-radius: 20px;
 }
+
 .mycard2>h3 {
     font-size: 15px;
     color: rgb(255, 253, 253);
@@ -189,6 +200,7 @@ h1 {
     font-weight: 500;
     font-style: normal;
 }
+
 .mycard2>p {
     margin-left: 3px;
     margin-right: 3px;
@@ -198,14 +210,16 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
 .mycard2>button {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: black;    
+    background-color: black;
     border-color: orangered;
-    
+
 }
+
 .mycard2>button>a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -273,7 +287,8 @@ h1 {
     font-weight: 500;
     font-style: normal;
 }
-.sobre>h1{
+
+.sobre>h1 {
     color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-weight: 900;
@@ -282,8 +297,9 @@ h1 {
 
 .contato {
     background-color: black;
-    text-align: center  ;
+    text-align: center;
 }
+
 .contato>h1 {
     color: rgb(255, 255, 255);
     display: grid;
@@ -297,7 +313,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    
+
 }
 
 .instagram {
@@ -310,14 +326,14 @@ h1 {
 
 .instagram>a {
     text-decoration: none;
-    color:rgb(221, 42, 123);
+    color: rgb(221, 42, 123);
     font-family: "Poppins", sans-serif;
     font-size: 25px;
 }
 
 .whatsapp {
     border-radius: 10px;
-    border-color: rgb(37,211,102);
+    border-color: rgb(37, 211, 102);
     background-color: rgb(0, 0, 0);
     height: 40px;
     width: 200px;
@@ -326,7 +342,7 @@ h1 {
 
 .whatsapp>a {
     text-decoration: none;
-    color: rgb(37,211,102); 
+    color: rgb(37, 211, 102);
     font-family: "Poppins", sans-serif;
     font-size: 25px;
 
@@ -339,16 +355,18 @@ h1 {
     font-weight: 500;
     font-style: normal;
 }
+
 .telend>h2 {
     color: white;
 }
+
 .telend>p {
     color: white;
 }
 
 
 /*FOOTER CSS*/
-.foot{
+.foot {
     display: flex;
     background-color: black;
     justify-content: center;
@@ -358,14 +376,12 @@ h1 {
     font-style: normal;
     font-size: 12px;
 }
-.foot>p{
+
+.foot>p {
     color: white;
 }
+
 .foot>p>a {
     color: rgb(0, 102, 255);
     text-decoration: none;
 }
-
-
-
-
